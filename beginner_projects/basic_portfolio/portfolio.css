@@ -4,5 +4,16 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color:#000000
+    --primary-color:#000000;
+    --secondary-color:#b871ce;
+    --light-color:#ebebeb;
+    --grey-color:#575960;
+    --temp-color:#5b3664;
+
+    --font-family:'Menlo', 'Consolas', 'Courier New', monospace;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
 }
